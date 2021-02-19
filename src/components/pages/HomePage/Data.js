@@ -1,43 +1,47 @@
 export const homeObjOne = {
-  lightBg: false,
-  lightText: true,
+  lightBg: true,
+  lightText: false,
   lightTextDesc: true,
-  topLine: 'Resume',
-  headline: 'Unlimited Transactions with zero fees',
+  topLine: 'Resume Page',
+  headline: 'Minchul Cho Resume',
   description:
-    'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
-  buttonLabel: 'Get Started',
+    'description',
+  buttonLabel: 'Go to see Resume',
   imgStart: '',
   img: 'images/ResumeSmall.png',
-  alt: 'Credit Card'
+  alt: 'small size resume  ',
+  link : '/Resume'
 };
 
 export const homeObjTwo = {
+ 
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: '100% SECURE',
-  headline: 'Stay protected 24/7 anywhere anytime',
+  topLine: 'Project 1 Social Network',
+  headline: 'ENTER PROJECT NAME HERE ',
   description:
-    'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
+    'SHORT DECRIPTION ABOUT PROJECT1',
   buttonLabel: 'Learn More',
   imgStart: '',
   img: 'images/svg-5.svg',
-  alt: 'Vault'
+  alt: 'PROJECT1 IMEAGE',
+  link : '/Producs'
 };
 
 export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'EASY SETUP',
-  headline: 'Super fast and simple onboarding process',
+  topLine: 'Project 2 Social Network',
+  headline: 'ENTER PROJECT NAME HERE ',
   description:
-    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-  buttonLabel: 'Start Now',
-  imgStart: 'start',
+    'SHORT DECRIPTION ABOUT PROJECT2',
+  buttonLabel: 'Learn More',
+  imgStart: '',
   img: 'images/svg-7.svg',
-  alt: 'Vault'
+  alt: 'PROJECT IMEAGE',
+  link : '/Producs'
 };
 
 export const homeObjFour = {

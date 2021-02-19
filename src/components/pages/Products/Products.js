@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroSection from '../../HeroSection';
+import HeroSection from '../../MainPage';
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
 import Pricing from '../../Pricing';
 

@@ -3,7 +3,7 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { MdFingerprint } from 'react-icons/md';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes, FaHome } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 
 function Navbar() {
@@ -24,9 +24,9 @@ function Navbar() {
   useEffect(() => {
     showButton();
     window.addEventListener('resize', showButton);
-    return {
+    //return {
       //window.removeEventListener('resize', showButton)
-    }
+    //}
   }, []);
 
 
@@ -36,8 +36,8 @@ function Navbar() {
         <nav className='navbar'>
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-              <MdFingerprint className='navbar-icon' />
-              LAVISH
+              <FaHome className='navbar-icon' />
+              Minchul Cho
             </Link>
             <div className='menu-icon' onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -49,12 +49,8 @@ function Navbar() {
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link
-                  to='/services'
-                  className='nav-links'
-                  onClick={closeMobileMenu}
-                >
-                  Services
+                <Link to='/Resume' className='nav-links' onClick={closeMobileMenu}>
+                  Resume
                 </Link>
               </li>
               <li className='nav-item'>
